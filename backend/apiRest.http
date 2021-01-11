@@ -1,0 +1,26 @@
+###
+GET http://localhost:4000/api/employees
+###
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name":"Daniel",
+    "position":"WEB Developer",
+    "office":"Office 201",
+    "salary":"22000"
+}
+###
+DELETE http://localhost:4000/api/employees/5ffa1bd92dd2b706606ee817
+###
+PUT http://localhost:4000/api/employees/5ffa1bd92dd2b706606ee817
+Content-Type: application/json
+
+{
+    "name":"Daniel Alejandro",
+    "position":"WEB Developer",
+    "office":"Office 201",
+    "salary":"223"
+}
+###
+GET http://localhost:4000/api/employees/5ffa1bd92dd2b706606ee817
