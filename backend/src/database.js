@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://root:root@cluster0.pnst7.mongodb.net/MEAN?retryWrites=true&w=majority', {
+mongoose.connect('#', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify:false
